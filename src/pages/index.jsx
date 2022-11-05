@@ -1,4 +1,5 @@
 import { Header } from 'components/header'
+import { Main } from 'components/main'
 import { Wrapper } from 'components/wrapper'
 import Head from 'next/head'
 
@@ -13,7 +14,7 @@ export default function Home() {
 
       <Wrapper>
         <Header />
-        <main></main>
+        <Main />
       </Wrapper>
     </>
   )
