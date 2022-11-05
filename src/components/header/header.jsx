@@ -1,3 +1,4 @@
+import { Button } from 'components/button'
 import { NavItem } from 'components/nav-item'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -8,12 +9,12 @@ export const Header = () => {
   const [openedMenu, setOpenedMenu] = useState(null)
 
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center gap-8">
       <Link href="/">
         <Logo className="h-auto w-[84px]" />
       </Link>
 
-      <nav className="flex gap-4">
+      <nav className="mr-auto flex gap-4">
         {navLinks.map((item, index) => {
           const { name, submenu } = item
           return (
@@ -27,6 +28,8 @@ export const Header = () => {
           )
         })}
       </nav>
+      <Button>sign in</Button>
+      <Button hasBorder>sign up</Button>
     </header>
   )
 }
