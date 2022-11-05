@@ -12,8 +12,8 @@ export const NavMenu = ({ menuItems, open }) => {
       {menuItems?.map((item, index) => {
         const { name, icon: Icon } = item
         return (
-          <div className="flex flex-row items-baseline gap-4" key={index}>
-            {Icon !== undefined && <Icon />}
+          <div className="flex  flex-row items-baseline gap-3" key={index}>
+            {Icon !== undefined && <Icon className="h-4 w-4" />}
             <span className="cursor-pointer whitespace-nowrap capitalize text-medium-gray hover:text-almost-black">
               {name}
             </span>
