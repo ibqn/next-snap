@@ -1,9 +1,15 @@
 import { classNames } from 'util/class-names'
 
-export const Button = ({ children, hasBorder = false, isFilled = false }) => {
+export const Button = ({
+  className,
+  children,
+  hasBorder = false,
+  isFilled = false,
+}) => {
   return (
     <button
       className={classNames(
+        className,
         'px-5 py-2 capitalize text-medium-gray',
         hasBorder && 'rounded-lg border-2 border-almost-black',
         isFilled &&
