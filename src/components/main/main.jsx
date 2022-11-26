@@ -31,10 +31,10 @@ export const Main = () => {
           <ClientMaker />
         </div>
       </div>
-      <div className="order-1 mt-20 hidden  xl:flex">
+      <div className="order-1 mt-20 hidden xl:flex">
         <Image src={HeroDesktop} alt="Hero image" />
       </div>
-      <div className="mb-8 flex justify-center  xl:hidden">
+      <div className="mb-8 flex justify-center xl:hidden">
         <Image src={HeroMobile} alt="Hero image" />
       </div>
     </section>

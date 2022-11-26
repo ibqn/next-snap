@@ -19,7 +19,7 @@ export const Header = () => {
         <Logo className="h-auto w-[84px]" />
       </Link>
 
-      <nav className="mr-auto hidden gap-4 xl:flex ">
+      <nav className="mr-auto hidden gap-4 xl:flex">
         {navLinks.map((item, index) => {
           const { name, submenu } = item
           return (
