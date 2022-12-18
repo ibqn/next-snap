@@ -6,7 +6,7 @@ export const NavMenu = ({ menuItems, open }) => {
       className={classNames(
         open ? 'visible' : 'hidden',
         'absolute top-full right-0',
-        'z-30 flex  flex-col gap-2 rounded-lg bg-almost-white py-2 px-4 drop-shadow'
+        'z-30 flex flex-col gap-2 rounded-lg bg-almost-white py-2 px-4 drop-shadow'
       )}
     >
       {menuItems?.map((item, index) => {

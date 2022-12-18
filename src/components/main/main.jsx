@@ -10,7 +10,7 @@ import ClientMeet from './client-Meet.svg'
 
 export const Main = () => {
   return (
-    <section className="mt-6 grid grid-rows-2 xl:grid-cols-2 xl:gap-5">
+    <section className="mt-6 grid grid-rows-2 xl:grid-cols-2 xl:grid-rows-1 xl:gap-5">
       <div className="relative order-2 flex flex-col items-center text-center xl:order-1 xl:items-start xl:justify-center xl:text-left">
         <h1 className="mt-6 text-3xl font-black xl:whitespace-pre-line xl:text-8xl">
           Make
